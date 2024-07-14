@@ -145,8 +145,9 @@
 
 .content__section-why {
   display: grid;
-  grid-template-rows: repeat(3, max-content);
   gap: 20px;
+  padding-block-end: 80px;
+  padding-block-start: 60px;
 }
 
 .content__section-title {
@@ -280,6 +281,10 @@
   .content__section-why .content__section-title {
     grid-row-start: 1;
     grid-row-end: 3;
+  }
+
+  .article__section{
+    grid-column-start: 2;
   }
 
   .content__section-what .content__section-title {
